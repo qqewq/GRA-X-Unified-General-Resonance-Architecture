@@ -1,3 +1,6 @@
+https://orcid.org/my-orcid?orcid=0009-0004-1872-1153
+https://doi.org/10.5281/zenodo.20792022
+------------
 # GRA-X: Unified General Resonance Architecture
 
 **GRA-X** is a research platform for Semantic AI based on the principles of *nullification*, *resonance*, *hierarchical stability*, and *collective intelligence*. It unifies all previous GRA repositories into a single mono-repo with a consistent API, documentation, benchmarks, and executable demos.
