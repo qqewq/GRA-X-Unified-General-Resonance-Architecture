@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use GRA-X in your research, please cite the following."
+authors:
+  - family-names: "GRA Collective"
+title: "GRA-X: General Resonance Architecture Operating System"
+version: 1.0.0
+date-released: 2025-06-01
+url: "https://github.com/gra-research/gra-x"

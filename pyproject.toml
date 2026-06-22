@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gra-x"
+version = "1.0.0"
+description = "Unified Semantic AI platform: nullification, resonance, hierarchy, swarms."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "numpy",
+    "scipy",
+    "networkx",
+    "pydantic",
+    "fastapi",
+    "uvicorn",
+    "ray",
+    "transformers",
+    "sentence-transformers",
+    "rich",
+    "plotly",
+    "dash",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff", "mypy"]
+
+[tool.setuptools.packages.find]
+include = ["gra*"]
